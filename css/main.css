@@ -22,7 +22,24 @@ body {
   margin: 0;
 }
 
+section {
+  vertical-align: middle;
+}
+
 .text-side {
+  display: block;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  display: inline-block;
+  margin-top: 0;
   margin-bottom: 1.3;
 }
 
