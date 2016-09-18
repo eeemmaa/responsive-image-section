@@ -22,55 +22,6 @@ body {
   margin: 0;
 }
 
-section {
-  text-align: left;
-}
-
-.content {
-  display: inline-block;
-  padding: 1rem 2rem;
-}
-
-h2 {
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 1.3em;
-}
-
-.btn-style {
-  display: block;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  padding: 0.5em 0.75em;
-  border-radius: 4px;
-  font-size: 0.875em;
-}
-
-.btn-buy {
-  background-color: #555;
-  color: #fff;
-}
-
-a:hover {
-  background-color: #000;
-}
-
-.img-flex {
-  display: inline-block;
-  width: 100%;
-}
-
-.photo {
-  display: inline-block;
-}
 
 @media only screen and (min width: 25em) {
 
@@ -85,16 +36,6 @@ a:hover {
   html {
     font-size: 110%;
     line-height: 1.4;
-  }
-
-  .content {
-    display: inline;
-    max-width: 49%;
-  }
-
-  .photo {
-    display: inline;
-    max-width: 49%;
   }
 }
 
