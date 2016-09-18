@@ -28,19 +28,17 @@ section {
 
 h1 {
   padding: 1rem 1rem;
+  margin: 0;
 }
 
 h2 {
   font-size: 1em;
-  padding: 0rem 1rem;
+  padding: 0 1rem;
+  margin-bottom: 0;
 }
 
 p {
-  padding: 0rem 1rem 1rem 1rem;
-}
-
-.btn {
-  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
 }
 
 a {
@@ -61,8 +59,7 @@ a:hover {
   width: 100%;
 }
 
-
-@media only screen and (min width: 25em) {
+@media only screen and (min-width: 25em) {
 
   html {
     font-size: 100%;
@@ -70,26 +67,59 @@ a:hover {
   }
 }
 
-@media only screen and (min width: 38em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  h1 {
+    padding-top: 2rem;
+  }
+
+  .content, .img-wrap {
+    display: inline-block;
+    max-width: 49.4999%;
+    vertical-align: middle;
+  }
 }
 
-@media only screen and (min width: 60em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  section {
+    padding: 2rem 0;
+  }
+
+  h1 {
+    padding-top: 1rem;
+  }
 }
 
-@media only screen and (min width: 90em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
     line-height: 1.5;
   }
+
+  .text, .img-wrap {
+    max-width: 33.3333%;
+  }
+
+  section {
+    text-align: center;
+    max-width: 70%;
+    margin-left: 10em;
+  }
+
+  .text {
+    text-align: center;
+  }
+
 }
